@@ -12,10 +12,23 @@ const IndexPage = () => (
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+
+    <hr/>
+    <code>
+      &lt;ResearchIcon/&gt;:
+    </code>
+    <div>
+      <ResearchIcon/>
+    </div>
+
+    <hr/>
+    <code>
+      &#123;ResearchIcon()&#125;:
+    </code>
+    <div>
       {ResearchIcon()}
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+
   </Layout>
 )
 
